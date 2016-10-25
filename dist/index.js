@@ -13,4 +13,13 @@ Object.defineProperty(exports, 'default', {
   }
 });
 
+var _tunneling = require('./tunneling');
+
+Object.defineProperty(exports, 'witTunneling', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_tunneling).default;
+  }
+});
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
