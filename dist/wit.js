@@ -23,6 +23,8 @@ exports.default = function (_ref) {
                 }
 
                 return result;
+            }, function (error) {
+                logger.error(error);
             }).then(_normalizer2.default);
         }
     };

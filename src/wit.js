@@ -25,6 +25,8 @@ export default function({ token, version, logger = { info: noop, error: noop } }
                 }
 
                 return result;
+            }, error => {
+                logger.error(error);
             })
             .then(normalizer)
     };

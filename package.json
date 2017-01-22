@@ -1,8 +1,11 @@
 {
   "name": "nbp-adapter-wit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wit.ai adapter for Node.js Bot Platform",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "babel ./src --preset babel-preset-es2015 --out-dir ./dist",
     "build:watch": "babel --watch ./src --preset babel-preset-es2015 --out-dir ./dist",
